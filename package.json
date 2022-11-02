@@ -1,0 +1,25 @@
+{
+  "name": "node_firts_app",
+  "version": "1.0.0",
+  "description": "Complete Node JS guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmayyadav2323/Node-JS--Apps.git"
+  },
+  "author": "Tanmay Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanmayyadav2323/Node-JS--Apps/issues"
+  },
+  "homepage": "https://github.com/tanmayyadav2323/Node-JS--Apps#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "nodeom": "^0.0.1"
+  }
+}

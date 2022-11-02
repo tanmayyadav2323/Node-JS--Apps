@@ -34,7 +34,7 @@ const requestHandler = (req, res) => {
             //Bcoz we know the incoming req will be text --> converted to string.
             console.log(parsedBody);
             const message = parsedBody.split('=')[1];
-            fs.writeFileSync('message.txt', message); // Sync method will stop the code exectutaion until this file is created like await
+            // fs.writeFileSync('message.txt', message); // Sync method will stop the code exectutaion until this file is created like await
             //It will block all the incoming requests to the server 
             //avoid sync as it will block the code executiom
 
@@ -43,8 +43,6 @@ const requestHandler = (req, res) => {
                 res.setHeader('Location', '/');
                 return res.end();
             });
-
-
         });
 
     }
